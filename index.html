@@ -41,6 +41,39 @@
       height: 100%;
       /* Ajusta la altura para que cubra la columna */
     }
+
+    .video .ratio {
+      border: 5px solid #000;
+      /* Cambia el color y el grosor del borde según tus preferencias */
+      border-radius: 10px;
+      /* Opcional: para bordes redondeados */
+      overflow: hidden;
+      /* Asegura que el contenido no se desborde del borde */
+    }
+
+    .video iframe {
+      border: none;
+      /* Asegura que el iframe no tenga un borde */
+    }
+
+    .main-section {
+      background: white;
+      width: 100%;
+    }
+
+    .additional-section {
+      background: black;
+      width: 100%;
+    }
+
+    .developer-info-card {
+      color: white;
+      /* Texto blanco */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      text-align: left;
+    }
   </style>
 </head>
 
@@ -142,6 +175,17 @@
         </div>
       </div>
     </section>
+
+    <!-- video -->
+    <section class="video">
+      <div class="container mt-5">
+        <h1 class="text-center mb-4">DISEÑO UX/UI</h1>
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/1OgdDe1p0tA" title="YouTube video" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
     <!-- Pie de página -->
     <footer class="mt-4 text-center">
       <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
