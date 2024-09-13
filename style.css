@@ -2,6 +2,7 @@
 /* Ajusta el margen superior del contenedor para compensar la altura del navbar fijo */
 body {
   padding-top: 56px;
+
   /* Ajusta este valor según la altura de tu navbar */
 }
 
@@ -53,6 +54,29 @@ body {
   color: black;
 }
 
+.container {
+  width: 100vh;
+}
+
 .navbar.scrolled .navbar-brand {
   color: white;
+}
+
+.main-section {
+  background: white;
+  width: 100%;
+}
+
+.additional-section {
+  background: black;
+  width: 100%;
+}
+
+.developer-info-card {
+  color: white;
+  /* Texto blanco */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: left;
 }
