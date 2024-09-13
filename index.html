@@ -74,6 +74,69 @@
       padding: 2rem;
       text-align: left;
     }
+
+    /* Css del GRID */
+    .grid-container2 {
+      background: black;
+      align-items: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      /* grid-gap; fila columna; */
+      grid-gap: 50px 15px;
+      /* Datos maximos del contenedor*/
+      max-width: 800px;
+      /* margin: 0 auto;: Centra automaticamente en contenido del contenedor*/
+      margin: 0 auto;
+    }
+
+    .grid-item {
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      object-fit: fit;
+    }
+
+    .grid-container2 img:first-child {
+      background: aqua;
+      border: 3px solid #09f;
+      grid-column: 1 / 3;
+      grid-row: 1 / 3;
+    }
+
+    /* Acordeon sencillo  */
+    .grid-container3 {
+      background-color: #fefefe;
+      display: grid;
+      margin: 50px auto;
+      max-width: 900px;
+      border-radius: 10px;
+      gap: 15px;
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    }
+
+    .grid-item2 {
+      max-width: 400px;
+      height: 100%;
+      background: #e5e9ed;
+      padding: 15px;
+      border-radius: 10px;
+      transition: all 0.7s ease;
+      font-family: 'Poppins', sans-serif;
+      color: #254150;
+    }
+
+    h2 {
+      padding: 15PX;
+      text-align: center;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+
+    }
+
+    .galery {
+      background: black;
+      width: 100%;
+    }
   </style>
 </head>
 
@@ -186,6 +249,33 @@
       </div>
     </section>
 
+    <section class="galery">
+      <div class="tittlegalery">
+        <h2> NUESTRO DISEÑOS</h2>
+      </div>
+
+
+      <div class="grid-container2">
+        <img class="grid-item"
+          src="https://bentogrids.com/cdn-cgi/image/width=2048,metadata=none,fit=scale-down,format=auto/https://s.bentogrids.com/clt9u051g0000u8wcc9h5x845.webp"
+          alt="Imagen 1">
+        <img class="grid-item"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzpPVetVLSTJxXRkWMi8IoHF2wTJxfwSB_xw&s"
+          alt="Imagen 2">
+        <img class="grid-item"
+          src="https://bentogrids.com/cdn-cgi/image/width=2048,metadata=none,fit=scale-down,format=auto/https://s.bentogrids.com/clth7mfbd00004r86ynis6w0t.png"
+          alt="Imagen 3">
+        <img class="grid-item"
+          src="https://cdn.dribbble.com/userupload/13002690/file/original-9ec176124bebb5723027310a24451b2b.jpg?resize=400x300&vertical=center"
+          alt="Imagen 4">
+        <img class="grid-item"
+          src="https://bentogrids.com/cdn-cgi/image/width=2048,metadata=none,fit=scale-down,format=auto/https://s.bentogrids.com/clth7mfbd00004r86ynis6w0t.png"
+          alt="Imagen 5">
+        <img class="grid-item"
+          src="https://cdn.dribbble.com/userupload/13002690/file/original-9ec176124bebb5723027310a24451b2b.jpg?resize=400x300&vertical=center"
+          alt="Imagen 6">
+      </div>
+    </section>
     <!-- Pie de página -->
     <footer class="mt-4 text-center">
       <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
