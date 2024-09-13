@@ -62,94 +62,6 @@ body {
   color: white;
 }
 
-<<<<<<< HEAD
-/* Contact CSS */
-.container-contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.contact-form {
-  flex: 1;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form h3 {
-  color: #000;
-  font-weight: bold;
-}
-
-.contact-form .form-label {
-  font-weight: bold;
-  color: #333;
-}
-
-.contact-form input,
-.contact-form textarea {
-  background-color: transparent;
-  border: none;
-  border-bottom: 2px solid #ccc;
-  border-radius: 0;
-  color: #000;
-  font-size: 1rem;
-  padding: 10px 5px;
-  width: 100%;
-  margin-bottom: 20px;
-  transition: border-color 0.3s ease;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  border-bottom: 2px solid #000;
-  outline: none;
-}
-
-.contact-form button {
-  background-color: #000;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.contact-form button:hover {
-  background-color: #333;
-}
-
-.contact-info {
-  flex: 1;
-  padding: 20px;
-  background: url("./imgs/bg-contact-us-01.jpg") no-repeat center center;
-  background-size: cover;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 10px;
-}
-
-.contact-info div {
-  margin-bottom: 20px;
-}
-
-.contact-info span {
-  font-size: 1.2rem;
-}
-
-.alert {
-  position: relative;
-  top: 10px;
-  right: 10px;
-  display: none;
-  z-index: 1000;
-}
-=======
 .main-section {
   background: white;
   width: 100%;
@@ -168,4 +80,3 @@ body {
   padding: 2rem;
   text-align: left;
 }
->>>>>>> 32d44f525fdfff1d0b25392ecfbb4ecc110a92e5
