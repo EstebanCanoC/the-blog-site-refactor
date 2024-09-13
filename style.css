@@ -1,0 +1,48 @@
+/* Navbar initial style: white background, black text */
+      .navbar {
+        background-color: white;
+        transition: background-color 0.3s ease;
+      }
+      .navbar .nav-link {
+        color: black;
+        position: relative;
+      }
+
+      /* Bottom indicator for active link */
+      .navbar .nav-link::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: black;
+        transition: width 0.3s;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+      }
+
+      /* Expand the indicator when the link is hovered */
+      .navbar .nav-link:hover::after,
+      .navbar .nav-link.active::after {
+        width: 100%;
+      }
+
+      /* Navbar style when scrolling: black background, white text */
+      .navbar.scrolled {
+        background-color: black;
+      }
+      .navbar.scrolled .nav-link {
+        color: white;
+      }
+      .navbar.scrolled .nav-link::after {
+        background-color: white;
+      }
+
+      /* Navbar brand (logo) */
+      .navbar-brand {
+        font-size: 1.5rem;
+        color: black;
+      }
+      .navbar.scrolled .navbar-brand {
+        color: white;
+      }
